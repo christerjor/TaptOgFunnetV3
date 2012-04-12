@@ -24,6 +24,10 @@
 	<array/>
 	<key>Plugins</key>
 	<dict>
+		<key>JSONKit</key>
+		<string>JSONKit</string>
+		<key>CDV</key>
+		<string>CDV</string>
 		<key>Compass</key>
 		<string>CDVLocation</string>
 		<key>Accelerometer</key>
