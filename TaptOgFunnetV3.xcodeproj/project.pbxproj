@@ -38,6 +38,7 @@
 		813663271536C8B9003842BC /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 813663261536C8B9003842BC /* MainViewController.m */; };
 		813663291536C8B9003842BC /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 813663281536C8B9003842BC /* MainViewController.xib */; };
 		8136632D1536C8B9003842BC /* verify.sh in Resources */ = {isa = PBXBuildFile; fileRef = 8136632C1536C8B9003842BC /* verify.sh */; };
+		813664761536D649003842BC /* www in Resources */ = {isa = PBXBuildFile; fileRef = 813664751536D649003842BC /* www */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,10 +56,10 @@
 		813662EF1536C8B9003842BC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		813662F11536C8B9003842BC /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		813662F31536C8B9003842BC /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
-		813662F71536C8B9003842BC /* TaptOgFunnetV3-Info.plist */ = {isa = PBXFileReference; path = "TaptOgFunnetV3-Info.plist"; sourceTree = "<group>"; };
+		813662F71536C8B9003842BC /* TaptOgFunnetV3-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TaptOgFunnetV3-Info.plist"; sourceTree = "<group>"; };
 		813662F91536C8B9003842BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		813662FB1536C8B9003842BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		813662FD1536C8B9003842BC /* TaptOgFunnetV3-Prefix.pch */ = {isa = PBXFileReference; path = "TaptOgFunnetV3-Prefix.pch"; sourceTree = "<group>"; };
+		813662FD1536C8B9003842BC /* TaptOgFunnetV3-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TaptOgFunnetV3-Prefix.pch"; sourceTree = "<group>"; };
 		813662FE1536C8B9003842BC /* Cordova.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cordova.framework; path = /Users/Shared/Cordova/Frameworks/Cordova.framework; sourceTree = "<absolute>"; };
 		813663031536C8B9003842BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Resources/en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		813663071536C8B9003842BC /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Resources/es.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -71,13 +72,14 @@
 		8136631B1536C8B9003842BC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Resources/splash/Default@2x.png"; sourceTree = "<group>"; };
 		8136631D1536C8B9003842BC /* Capture.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Capture.bundle; path = Resources/Capture.bundle; sourceTree = "<group>"; };
 		8136631F1536C8B9003842BC /* Cordova.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Cordova.plist; sourceTree = "<group>"; };
-		813663221536C8B9003842BC /* AppDelegate.h */ = {isa = PBXFileReference; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
+		813663221536C8B9003842BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
 		813663231536C8B9003842BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
-		813663251536C8B9003842BC /* MainViewController.h */ = {isa = PBXFileReference; name = MainViewController.h; path = Classes/MainViewController.h; sourceTree = "<group>"; };
+		813663251536C8B9003842BC /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = Classes/MainViewController.h; sourceTree = "<group>"; };
 		813663261536C8B9003842BC /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = Classes/MainViewController.m; sourceTree = "<group>"; };
 		813663281536C8B9003842BC /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainViewController.xib; path = Classes/MainViewController.xib; sourceTree = "<group>"; };
-		8136632B1536C8B9003842BC /* README */ = {isa = PBXFileReference; name = README; path = Plugins/README; sourceTree = "<group>"; };
+		8136632B1536C8B9003842BC /* README */ = {isa = PBXFileReference; lastKnownFileType = text; name = README; path = Plugins/README; sourceTree = "<group>"; };
 		8136632C1536C8B9003842BC /* verify.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = verify.sh; sourceTree = "<group>"; };
+		813664751536D649003842BC /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +154,7 @@
 		813662F51536C8B9003842BC /* TaptOgFunnetV3 */ = {
 			isa = PBXGroup;
 			children = (
+				813664751536D649003842BC /* www */,
 				813662FE1536C8B9003842BC /* Cordova.framework */,
 				813663001536C8B9003842BC /* Resources */,
 				813663211536C8B9003842BC /* Classes */,
@@ -330,6 +333,7 @@
 				813663201536C8B9003842BC /* Cordova.plist in Resources */,
 				813663291536C8B9003842BC /* MainViewController.xib in Resources */,
 				8136632D1536C8B9003842BC /* verify.sh in Resources */,
+				813664761536D649003842BC /* www in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,6 +482,7 @@
 					"DEBUG=1,",
 					"CORDOVA_FRAMEWORK=1",
 				);
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				INFOPLIST_FILE = "TaptOgFunnetV3/TaptOgFunnetV3-Info.plist";
 				OTHER_LDFLAGS = (
 					"-weak_framework",
@@ -508,6 +513,7 @@
 					"NDEBUG=1,",
 					"CORDOVA_FRAMEWORK=1",
 				);
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				INFOPLIST_FILE = "TaptOgFunnetV3/TaptOgFunnetV3-Info.plist";
 				OTHER_LDFLAGS = (
 					"-weak_framework",
@@ -545,6 +551,7 @@
 				813663321536C8B9003842BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
